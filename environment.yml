@@ -1,0 +1,19 @@
+name: intake-blog
+channels:
+  - pyviz
+  - conda-forge
+  - defaults
+  - intake
+dependencies:
+  - intake
+  - intake-xarray
+  - numpy
+  - pandas
+  - xarray
+  - geopandas
+  - cartopy
+  - holoviews
+  - geoviews
+  - hvplot
+  - pip:
+    - rio-toa
