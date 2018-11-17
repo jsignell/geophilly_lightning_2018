@@ -1,19 +1,18 @@
-name: intake-blog
+name: trees
 channels:
-  - pyviz
   - conda-forge
-  - defaults
-  - intake
 dependencies:
+  - cartopy
+  - colorcet
+  - geopandas
   - intake
   - intake-xarray
   - numpy
   - pandas
+  - rasterio
   - xarray
-  - geopandas
-  - cartopy
-  - holoviews
-  - geoviews
-  - hvplot
+  - pyviz/label/dev::geoviews=1.6.0a2
+  - pyviz/label/dev::holoviews=1.11.0a10
+  - pyviz/label/dev::hvplot=0.3.0a5
   - pip:
     - rio-toa
